@@ -1,0 +1,58 @@
+# Outgoing email settings
+
+production:
+
+  email_delivery:
+  delivery_method: :smtp
+  smtp_settings:
+    tls:true  
+
+
+
+
+    enable_starttls_auto: true  
+
+    address: "smtp:gmail.com"  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    port:'587' 
+
+
+
+
+
+    domain: "smtp.gmail.com"  
+
+    authentication: :plain 
+
+
+
+
+    user_name:"redmine94@gmail.com" 
+
+
+
+    password: "redmine"  
+  
+development:
+  delivery_method: :smtp
+  smtp_settings:
+   tls:true   
+
+	address: smtp.gmail.com  
+    port:587 
+    domain: smtp.gmail.coM 
+    authentication: : plain 
+    user_name: redmine94@gmail.com  
+    password: redmine
